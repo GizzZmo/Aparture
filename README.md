@@ -8,7 +8,9 @@ The Flutter shell presents three surfaces: files, viewing, and AI. In later slic
 
 ## Build and test
 
-Install the stable Flutter SDK, then run `flutter pub get` and `flutter test`. Android is the initial mobile target. Native Linux and Android runner directories are not included yet, so target builds still need to be generated and verified with Flutter before this slice is buildable on those platforms; iOS, macOS, and Windows remain planned targets.
+Install Flutter 3.44 or newer, the Android SDK, and JDK 17. On Ubuntu, install the Linux desktop prerequisites with `sudo apt install clang cmake ninja-build pkg-config libgtk-3-dev`.
+
+Run `flutter pub get` and `flutter test` from the repository root. Build the supported targets with `flutter build linux` and `flutter build apk`. The Android app supports Android 8.0 (API 26) and newer. Linux and Android runner projects are included; iOS, macOS, and Windows remain planned targets.
 
 ## Delivery boundary
 
