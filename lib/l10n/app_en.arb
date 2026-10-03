@@ -1,0 +1,9 @@
+{
+  "@@locale": "en",
+  "files": "Files",
+  "view": "View",
+  "ai": "AI",
+  "filesPlaceholder": "Your files will appear here.",
+  "viewPlaceholder": "Open a file or web page here.",
+  "aiPlaceholder": "AI will be available when configured."
+}
