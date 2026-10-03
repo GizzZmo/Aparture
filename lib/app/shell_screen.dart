@@ -14,7 +14,8 @@ class ApertureShell extends StatelessWidget {
   Widget build(BuildContext context) {
     final strings = AppStrings.of(context);
     final location = GoRouterState.of(context).uri.path;
-    final selectedIndex = _routes.indexOf(location).clamp(0, _routes.length - 1);
+    final selectedIndex =
+        _routes.indexOf(location).clamp(0, _routes.length - 1).toInt();
 
     return Scaffold(
       body: child,

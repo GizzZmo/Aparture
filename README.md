@@ -8,7 +8,7 @@ The Flutter shell presents three surfaces: files, viewing, and AI. In later slic
 
 ## Build and test
 
-Install the stable Flutter SDK and platform prerequisites, then run `flutter pub get`, `flutter test`, and `flutter run -d linux` or `flutter run -d android`. Android is the initial mobile target; iOS, macOS, and Windows remain planned platform targets.
+Install the stable Flutter SDK, then run `flutter pub get` and `flutter test`. Android is the initial mobile target. Native Linux and Android runner directories are not included yet, so target builds still need to be generated and verified with Flutter before this slice is buildable on those platforms; iOS, macOS, and Windows remain planned targets.
 
 ## Delivery boundary
 
