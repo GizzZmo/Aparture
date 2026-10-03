@@ -1,0 +1,9 @@
+{
+  "@@locale": "nb",
+  "files": "Filer",
+  "view": "Visning",
+  "ai": "KI",
+  "filesPlaceholder": "Filene dine vises her.",
+  "viewPlaceholder": "Åpne en fil eller nettside her.",
+  "aiPlaceholder": "KI blir tilgjengelig når den er konfigurert."
+}
